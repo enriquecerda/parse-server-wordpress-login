@@ -15,6 +15,7 @@ var providers = {
 
 
 En your "index.js" de your parse-server include the option "oauth" in your middleware.
+
 var api = new ParseServer(
 { 
   ...
