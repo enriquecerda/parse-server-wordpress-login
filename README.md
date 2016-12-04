@@ -6,11 +6,16 @@ Include these files in the authDataManager directory of parse-server "parse-serv
 var wordpress = require("./wordpress");
 
 var providers = {
+
   facebook: facebook,
+  
   instagram: instagram,
+  
   ...
   ...
+  
     wordpress: wordpress
+    
 };
 
 
