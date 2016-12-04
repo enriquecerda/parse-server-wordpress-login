@@ -19,20 +19,34 @@ En your "index.js" de your parse-server include the option "oauth" in your middl
 var api = new ParseServer(
 
 { 
+
   ...
+  
   ...
+  
   oauth: {
+  
    ...
+   
    ...
+   
    wordpress: [
+   
 			{
-				url: "http://yourWordpressURL",	// REQUIRED		
+			
+				url: "http://yourWordpressURL",	// REQUIRED	
+				
 				consumer_key: "lkbPsEotBkGn", // REQUIRED
+				
 				consumer_secret: "QpLPurXFWAbciQag4hE02EWc3jXVvh5DiWySN0hnVgE97vWF" // REQUIRED
+				
 			}
+			
 		]
+		
 
   }
+  
 }
 
 );
